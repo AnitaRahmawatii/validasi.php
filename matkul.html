@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>PEMROGRAMAN WEB</title>
+	<script>
+		alert('Cie yang penasaran wkwkwk!');
+		var nama= prompt('Masukan Nama Anda :');
+alert('Selamat datang '+ nama);
+
+	</script>
+	<script src="script.js"></script>
+</head>
+<body>
+	<link rel="stylesheet" href="data.css">
+
+		<div class="header">
+			<marquee><h1>WELCOME TO MY WEBSITE</h1></marquee>
+			
+		</div>
+
+		<div class="menu">
+				<a href="tugas1.html">BIODATA</a>
+				<a href="matkul.html">MATERI KULIAH</a>
+				<a href="http://google.com" onclick="cari()">PENCARIAN</a>
+			</div>
+
+		<div class="content">
+
+			<div class="isi">
+				<h1 align="center">RANGKUMAN MATERI 1-4</h1>
+					<p> Apa itu WEB ?</p>
+						<p>WEB merupakan layanan internet yang berjalan pada protokol aplikasi HTTP</p>
+					<p>Definisi Internet :</p>
+						<P>Internet meurpakan jaringan yang sangat besar, jaringan besar yang menghubungkan kejaringan kecil menggunakan jaringan komunikasi diseluruh dunia protokol TCP/IP
+					<P>Perbedaan aplikasi berbasis Internet vs WEB :</p>
+					<P>Aplikasi berbasis Internet :</P>
+						<P>Menggunakan protokol aplikasi yang sudah ada atau mendefinisikan protokol sendiri.</P>
+						<P>Aplikasi disisi server berkomunikasi langsung dengan client.
+						Aplikasi disisi client dapat berupa aplikasi yang berdiri sendiri atau ditempelkan dalam aplikasi lain.</P>
+					<P>Aplikasi berbasis WEB :</P>
+						<P>Menggunakan protokol HTTP.</P>
+						<p>Aplikasi disisi server berkomunikasi langsung dengan cilent melalui web server.</p>
+						<p>Aplikasi disisi client umumnya berupa web browser.</P>
+					<p>Teknologi pembangun aplikasi berbasis WEB :</p>
+						<p>WEB client (web browser)</p>
+						<p>WEB server</p>
+						<p>URL </p>
+						<p>HTTP</p>
+						<p>CSS</p>
+						<p>Pemrograman WEB</p>
+						<p>CGI, eksekusi program disisi server</p>
+						<p>Server side scripting</p>
+						<p>Client side scripting</p>
+						<p>Plug-in, eksekusi program disisi client</p>
+					<p>URL (uniform resource locator) :
+						<p>Adalah sistem pengalamatan file yang digunakan internet.</p>
+						<p>Format URL : standar dideskripsikan di RFC 1738 (http://www.ietf.org/rfc/rcf1738.txt).</p>
+					<p>WEB server :</p>
+						<p>Merupakan suatu software yang dijalankan pada komputer server. Berfungsi agar dokumen web yang disimpan diserver dapat diakses oleh user internet.</p>
+					<p>Perangkat lunak web server yang pernah populer :</p>
+						<p>Apache (Windows dan Linux)</p>
+						<p>MS Internet Information Server / IIS (WIndows) / PWS (WIN98)</p>
+						<p>Tomcat, untuk Java (Window & Linux)</p>
+					<p>Client Side Programing biasanya lebih banyak dikerjakan oleh front-end developer</p>
+					<p>Web Development :</p>
+						<p>Front-end Developer</p>
+						<p>Backend Developer</p>
+						<p>Database Deveoper</p>
+						<p>UI/UX Engineer</p>
+						<p>QA Engineer</p>
+					<p>Komponen :</p>
+						<p>HTML</p>
+						<p>CSS</P>
+						<p>(JavaScript)</p>
+					<p>HTML : Hyper Text Markup Language</p>
+						<P>Standar bahasa yang digunakan untuk menampilkan dokumen web, berfungsi sebagai:</p>
+						<p>Mengontrol tampilan konten</p>
+						<p>Memuat form untuk transaksi data</p>
+						<p>Memuat obyek lain seperti image, audio, video, dll</p>
+					<p>Browser :</p>
+						<p>Software di client untuk menerjemahkan tag HTML halaman web IE, Chrome, Firefox, Opera, dll</p>
+					<p>Editor :</P>
+						<p>Program untuk menulis tag HTML</p>
+						<p>Notepad, Notepad++, Sublime, Dreamweaver, dll</p>
+					<p>Struktur Dokumen HTML :</p>
+						<p>Document HTML bisa di bagi mejadi tiga bagian utama: html, head, dan body.</p>
+					<p>Setiap document HTML harus di awali dan di tutup dengan tag</p>
+					<p>Pemformatan Tabel yaitu :</p>
+					<p>Perataan tabel :</p>
+						<p>align : center, justify, left, right</P>
+						<p>Lebar : width</P>
+						<p>Warna : bgcolor</P>
+						<p>Spasi tabel :</P>
+						<p>cellspacing : untuk memberi spasi antar cell</p>
+						<p>cellpadding : untuk spasi dari border ke text dalam cell</p>
+					<p>Digunakan untuk mengumpulkan input dari pengguna Form HTML mengandung elemen-elemen form :</p>
+						<p>TEXT FIELD</P>
+						<p>CHECKBOX</P>
+						<p>RADIO BUTTON</P>
+						<p>Tombol submit Dan lain-lain</p>
+					<p>action : mendefinisikan aksi yang dijalankan ketika form di-submit</p>
+						<p>Data pada form akan dikirim ke suatu halaman pada server</p>
+					<p>method : mendefinisikan HTTP method (GET atau POST) Data pada form akan dikirim ke suatu halaman pada server</p>
+					<p>Perbedaan GET dan PSOT : </p>
+					<p>GET :</p>
+						<p>Metode default</p>
+						<p>Data terlihat di alamat browser</p>
+						<p>Panjang URL terbatas 3000 karakter</p>
+						<p>Berguna untuk bookmark</p>
+						<p>Untuk data yang tidak sensitif</p>
+					<p>POST : </p>
+						<p>Harus didefinisikan</p>
+						<p>Data tidak terlihat di alamat browser</p>
+						<p>Tidak ada limitasi</p>
+						<p>Tidak bisa di-bookmark</p>
+						<p>Untuk pengiriman data sensitive. Misal: data login</p>
+					<p>Select :</p>
+						<p>Untuk menampilkan pilihan dalam bentuk dropdown Secara DEFAULT, opsi pertama yang akan terpilih
+							Untuk mendefinisikan opsi yang terpilih selain DEFAULT, atribut selected dapat ditambahkan</p>
+					<p>Atribut Multiple : </p>
+						<p>Untuk memilih lebih dari satu pilihan menggunakan atribut</p>
+					<p>Textarea : </p>
+						<p>rows menunjukkan jumlah baris yang terlihat</p>
+						<p>cols menunjukkan lebar area yang terlihat</p>
+					<p>Button : Mendefinisikan tombol yang bisa di-klik</p>
+					<p>Input : adalah elemen paling penting dalam form input dapat ditampilkan dalam beberapa cara bergantung pada typenya</p>
+					<p>Atribut Input :</p>
+						<p>value : nilai awal dari sebuah input</p>
+						<p>readonly : hanya dapat dibaca (tidak dapat dirubah nilainya)</p>
+						<p>disabled : tidak dapat digunakan dan di-klik. Nilainya tidak akan dikirim ketika submit form</p>
+						<p>size : ukuran (dalam jumlah karakter) </P>
+						<p>maxlength : ukuran maksimal yang diijinkan dalam sebuah input</p>
+					<p>CSS : Cascading Style Sheet</p>
+						<p>Berfungsi mendefenisikan style untuk suatu teks dengan jenis huruf, ukuran , warna tertentu.</p>
+					<p>Metode Pembuatan :</p>
+						<p>Style Sheet Inline : Mengetikkan langsung dalam tag html sebagai atribut </p>
+						<p>Style Sheet Internal : Menggunakan tag style di dalam tag head.</p>
+						<p>Style Sheet External : Menyimpan informasi style ke dalam sebuah file dengan ekstensi/type file .css dan memanggil file css dalam html dengan tag link yang diletakkan dalam tag head.</p>
+						<p>Style definitions : Definisi style yang ingin dibuat</p>
+					<p>ID selctor dan Class : </p>
+						<p>ID selector didefinisikan sendiri (tunggal), ID selector diawali tanda # ( octothorpe)</p>
+						<p>CLASS diawali dengan tanda titik ( . )</p>
+					<p>Front-end development skills : </p>
+						<p>Front End Framework</p>
+						<p>Cross Browser</p>
+						<p>SupportResponsive and Mobile Design</p>
+					<p>CSS Faremwork : </p>
+						<p>Bootstrap</p>
+						<p>Foundation</p>
+						<p>Blueprint</p>
+						<p>Cascade Framework</p>
+						<p>Materialize</p>
+						<p>Semantic UI</p>
+						<p>Tailwind CSS</p>
+			</div>
+			
+		</div>
+
+
+		<!-- SIdebar -->
+		<div class="sidebar">
+			<h3>Link Terkait</h3>
+			<a href="http://instagram.com/anitarhmwt15/"> <img src="instag.png" alt="instagram"></a>
+			<a href="http://gmail.com"> <img src="gmail.jpg" alt="gmail"></a>
+			<br>
+			<br>
+			<button type="button" onclick="document.getElementById('demo').innerHTML=Date()" id="demo"> Click Untuk Mengetahui Waktu</button>
+		</div>
+		<!-- Akhir sidebar -->
+		<div class="footer">
+			<marquee>
+				<p>&copy COPYRIGHT BY ANITA RAHMAWATI</p>
+			</marquee>
+		</div>
+
+</body>
+</html>
